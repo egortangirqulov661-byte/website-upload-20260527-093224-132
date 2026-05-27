@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <title>影片搜索-日韩精选视频-精选视频合集-热门片库持续更新</title>
+  <meta name="description" content="通过关键词搜索日韩精选视频、热门片库与多类型视频合集。">
+  <meta name="keywords" content="日韩精选视频,精选视频合集,热门片库持续更新,日韩视频,精选内容,热门视频,视频合集">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./assets/css/original.css">
+  <link rel="stylesheet" href="./assets/css/site.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="./index.html" aria-label="日韩精选视频">
+        <span class="brand-mark">▶</span>
+        <span class="brand-name">日韩精选视频</span>
+      </a>
+      <nav class="desktop-nav" aria-label="主导航">
+        <a class="nav-link " href="./index.html">首页</a>
+        <a class="nav-link " href="./categories.html">分类</a>
+        <a class="nav-link " href="./rankings.html">排行榜</a>
+        <a class="nav-link is-active" href="./search.html">搜索</a>
+      </nav>
+      <form class="header-search" action="./search.html" method="get">
+        <input name="q" type="search" placeholder="搜索视频..." autocomplete="off">
+        <button type="submit">搜索</button>
+      </form>
+      <button class="menu-button" type="button" data-menu-toggle aria-label="展开导航">☰</button>
+    </div>
+    <div class="category-strip">
+      <div class="container strip-scroll">
+        <a href="./category-jpkr-selection.html">日韩精选</a>
+        <a href="./category-romance-healing.html">爱情治愈</a>
+        <a href="./category-suspense-crime.html">悬疑犯罪</a>
+        <a href="./category-action-adventure.html">动作冒险</a>
+        <a href="./category-comedy-family.html">喜剧家庭</a>
+        <a href="./category-fantasy-sci-fi.html">科幻奇幻</a>
+        <a href="./category-classic-series.html">经典剧集</a>
+        <a href="./category-drama-picks.html">剧情佳作</a>
+      </div>
+    </div>
+    <div class="mobile-panel" data-mobile-menu>
+      <form class="mobile-search" action="./search.html" method="get">
+        <input name="q" type="search" placeholder="搜索视频..." autocomplete="off">
+        <button type="submit">搜索</button>
+      </form>
+      <nav aria-label="移动导航">
+        <a class="mobile-link " href="./index.html">首页</a>
+        <a class="mobile-link " href="./categories.html">分类</a>
+        <a class="mobile-link " href="./rankings.html">排行榜</a>
+        <a class="mobile-link is-active" href="./search.html">搜索</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="page-hero blue-hero">
+      <div class="container">
+        <p class="eyebrow">Search</p>
+        <h1>影片搜索</h1>
+        <p>输入影片名、地区、题材或标签，快速查找想看的内容。</p>
+        <form class="hero-search" action="./search.html" method="get">
+          <input type="search" name="q" placeholder="搜索视频..." data-search-page-input autocomplete="off">
+          <button type="submit">搜索</button>
+        </form>
+      </div>
+    </section>
+    <section class="container search-results" data-search-page>
+      <div class="section-head">
+        <h2 data-search-title>精选内容</h2>
+        <a href="./categories.html">分类浏览 →</a>
+      </div>
+      <div class="movie-grid listing-grid" data-search-results></div>
+    </section>
+  </main>
+  <script src="./assets/js/search-index.js"></script>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand"><span>▶</span>日韩精选视频</div>
+        <p>精选日韩视频内容按题材与热度整理，涵盖多类型页面内容，适合分类浏览。</p>
+      </div>
+      <div>
+        <h2>影视分类</h2>
+        <ul>
+          <li><a href="./category-jpkr-selection.html">日韩精选</a></li>
+          <li><a href="./category-romance-healing.html">爱情治愈</a></li>
+          <li><a href="./category-suspense-crime.html">悬疑犯罪</a></li>
+          <li><a href="./category-action-adventure.html">动作冒险</a></li>
+          <li><a href="./category-comedy-family.html">喜剧家庭</a></li>
+          <li><a href="./category-fantasy-sci-fi.html">科幻奇幻</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>快捷入口</h2>
+        <ul>
+          <li><a href="./index.html#featured">精选推荐</a></li>
+          <li><a href="./rankings.html">热门排行</a></li>
+          <li><a href="./categories.html">分类浏览</a></li>
+          <li><a href="./search.html">影片搜索</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 日韩精选视频</div>
+  </footer>
+  <script src="./assets/js/site.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

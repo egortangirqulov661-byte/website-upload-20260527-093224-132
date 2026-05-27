@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>影片搜索-热门电影大全</title>
+    <meta name="description" content="影片搜索页面，支持按片名、年份、地区、题材、标签查找影片。">
+    <meta name="keywords" content="热门电影大全,热门好看的电影大全,热门影片在线点播,热门电影,电影榜单,精选影片,电影片库,影片搜索">
+    <meta name="robots" content="index,follow">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <script src="./assets/search-data.js"></script>
+</head>
+<body>
+    <header class="site-header">
+    <div class="container header-inner">
+        <a class="brand" href="./index.html" aria-label="热门电影大全">
+            <span class="brand-icon">🎬</span>
+            <span class="brand-text">
+                <strong>热门电影大全</strong>
+                <small>热门影片在线点播</small>
+            </span>
+        </a>
+        <nav class="desktop-nav" aria-label="主导航">
+            <a class="nav-link" href="./index.html">首页</a>
+            <a class="nav-link" href="./categories.html">分类</a>
+            <a class="nav-link" href="./rank.html">热播榜</a>
+            <a class="nav-link active" href="./search.html">搜索</a>
+            <a class="nav-link" href="./category-01.html">热门电影</a>
+            <a class="nav-link" href="./category-04.html">欧美大片</a>
+        </nav>
+        <button class="menu-toggle" type="button" aria-label="打开导航" data-menu-toggle>
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+    <nav class="mobile-nav" aria-label="移动导航" data-mobile-nav>
+        <a class="nav-link" href="./index.html">首页</a>
+        <a class="nav-link" href="./categories.html">分类</a>
+        <a class="nav-link" href="./rank.html">热播榜</a>
+        <a class="nav-link active" href="./search.html">搜索</a>
+        <a class="nav-link" href="./category-01.html">热门电影</a>
+        <a class="nav-link" href="./category-04.html">欧美大片</a>
+    </nav>
+</header>
+    <main>
+        <section class="page-hero compact-hero">
+            <div class="container">
+                <span>Search</span>
+                <h1>影片搜索</h1>
+                <p>输入片名、年份、地区、类型或标签，快速找到对应影片详情页。</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container search-page" data-global-search>
+                <div class="search-panel">
+                    <input type="search" placeholder="搜索 2000 部影片" data-global-search-input>
+                    <button type="button" data-global-search-button>搜索</button>
+                </div>
+                <div class="result-count" data-global-search-count>请输入关键词开始搜索</div>
+                <div class="movie-grid" data-global-search-results></div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+    <div class="container footer-grid">
+        <div>
+            <div class="footer-logo">热门电影大全</div>
+            <p>汇集热门电影内容，覆盖多地区、多题材影片，适合按热度浏览站内片库。</p>
+        </div>
+        <div>
+            <h3>频道入口</h3>
+            <div class="footer-links">
+                <a href="./category-01.html">热门电影</a>
+                <a href="./category-02.html">高分剧集</a>
+                <a href="./category-03.html">华语精选</a>
+                <a href="./category-04.html">欧美大片</a>
+                <a href="./category-05.html">日韩佳作</a>
+            </div>
+        </div>
+        <div>
+            <h3>更多分类</h3>
+            <div class="footer-links">
+                <a href="./category-06.html">动作悬疑</a>
+                <a href="./category-07.html">喜剧爱情</a>
+                <a href="./category-08.html">科幻奇幻</a>
+                <a href="./category-09.html">家庭剧情</a>
+                <a href="./category-10.html">经典新片</a>
+            </div>
+        </div>
+        <div>
+            <h3>站内导航</h3>
+            <div class="footer-links">
+                <a href="./rank.html">热播榜</a>
+                <a href="./search.html">影片搜索</a>
+                <a href="./categories.html">分类总览</a>
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="./assets/site.js"></script>
+    <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

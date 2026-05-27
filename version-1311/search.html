@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>搜索-经典欧美电影-经典影片合集-高清视频在线播放</title>
+  <meta name="description" content="搜索收录经典欧美电影内容，涵盖不同年代代表作品，适合按片单回顾浏览。">
+  <meta name="keywords" content="搜索,经典欧美电影,经典影片合集,高清视频在线播放,欧美电影,经典影片,电影合集,高分电影">
+  <link rel="stylesheet" href="./assets/main.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="./index.html" aria-label="经典欧美电影">
+      <span class="brand-mark">▶</span>
+      <span>经典欧美电影</span>
+    </a>
+    <nav class="main-nav" aria-label="主导航">
+      <a class="nav-link" href="./index.html">首页</a>
+      <a class="nav-link" href="./categories.html">分类</a>
+      <a class="nav-link" href="./rankings.html">热播榜</a>
+      <a class="nav-link active" href="./search.html">搜索</a>
+    </nav>
+    <form class="header-search" action="./search.html" method="get">
+      <input name="q" type="search" placeholder="搜索影片、年份、类型" autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="menu-toggle" type="button" aria-label="打开菜单">☰</button>
+  </div>
+  <div class="mobile-panel">
+    <a href="./index.html">首页</a>
+    <a href="./categories.html">分类</a>
+    <a href="./rankings.html">热播榜</a>
+    <a href="./search.html">搜索</a>
+  </div>
+</header>
+<main class="container page-main">
+  <section class="page-hero slim-hero">
+    <p class="section-kicker">Search</p>
+    <h1>搜索片库</h1>
+    <p>输入片名、地区、年份、类型或标签，快速查找影片。</p>
+  </section>
+  <section class="search-page-box">
+    <form class="search-page-form" action="./search.html" method="get">
+      <input id="searchInput" name="q" type="search" placeholder="搜索影片、年份、类型、标签" autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+    <div id="searchResults" class="movie-grid five-columns search-results"></div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <a class="footer-brand" href="./index.html">经典欧美电影</a>
+    <p>收录经典欧美电影内容，涵盖不同年代代表作品，适合按片单回顾浏览。</p>
+    <div class="footer-links">
+      <a href="./categories.html">分类片库</a>
+      <a href="./rankings.html">热播榜</a>
+      <a href="./search.html">站内搜索</a>
+    </div>
+  </div>
+</footer>
+<script src="./assets/main.js"></script>
+<script src="./assets/search-index.js"></script>
+<script src="./assets/search.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
